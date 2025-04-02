@@ -36,7 +36,7 @@ def searchRange(self, nums, target):
             return last
         return [find_first(nums, target), find_last(nums, target)]
 
-# another way of doing it
+# another way of doing it  ------> seen online (I forgot where)
 
 import bisect
 
