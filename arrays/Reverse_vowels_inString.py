@@ -18,7 +18,7 @@ class Solution(object):
 
         return ''.join(s_list)
 
-        # this swaps whats in s and puts it inso s_list
+        # this swaps whats in s and puts it into s_list
 
 
 # left, right pointer algorithm 
