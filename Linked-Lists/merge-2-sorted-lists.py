@@ -16,13 +16,13 @@ class Solution(object):
         curr = dummy    # set curr = this dummy node
 
         while list1 and list2:    # while neither  list is empty
-            if list1.val < list2.val:    # takes list which has the lowest first value and goes from there to start etc ...
-                curr.next = list1    # next node = list 1 node
-                list1 = list1.next
+            if list1.val < list2.val:    
+                curr.next = list1    # next node = list 1 node --- > attaches list1 to current node
+                list1 = list1.next        # moves list1 forwards
             else:
                 curr.next = list2
                 list2 = list2.next
-            curr = curr.next
+            curr = curr.next        # moves current forward
 
         curr.next = list1 if list1 else list2    # when no other element in one of lists, return other
 
