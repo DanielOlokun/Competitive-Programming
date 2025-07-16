@@ -9,3 +9,11 @@ class Solution(object):
 
 
         return max_sum / float(k)  # ensures floating point as per q
+
+
+
+        # initialise
+        # get whats needed
+        # slide window
+        # update 
+        # continue
